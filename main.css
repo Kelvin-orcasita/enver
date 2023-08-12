@@ -1,0 +1,94 @@
+:root {
+    --colorBlanco: #fff;
+    --ColorBackground: #19191b; 
+    --ColorBackgroundPulple: #5454d4; 
+    --colorPulple: #5454d4;
+}
+
+body {
+    background-color: var(--ColorBackground) !important;  
+}
+
+.homeP{
+    font-size: clamp(0.8rem, 1.2vw, 2rem);
+}
+
+.divhombeP, #section6 .container-fluid{
+    width: clamp(17rem, 32.5vw, 32.5rem);
+}
+
+#section6 .container-fluid{
+    width: clamp(90rem, 100vw, 100rem);
+}
+
+#section6 .container-fluid{
+    font-size: clamp(0.8rem, 1.2vw, 1.2rem);
+}
+
+.btn-primary {
+    background-color: var(--ColorBackgroundPulple) !important;
+    border: none !important;
+    width: 10rem;
+    height: 3rem;
+}
+
+.btnNav {
+    display: none;
+}
+
+#portofolio {
+    height: 35rem;
+}
+
+.text-decoration-none, .menu {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+    .centerPortafolio{
+        padding-left: 1.5rem;
+    }
+
+    .imgPortafolio {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    footer {
+        display: flex;
+        text-align: center;
+        justify-content: center;     
+    }    
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+ 
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .btnNav {
+        display: block;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ 
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
